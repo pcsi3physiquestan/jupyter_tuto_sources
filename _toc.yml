@@ -1,0 +1,29 @@
+format: jb-book
+root: intro_python
+parts:
+- caption: "Réviser les bases"
+  numbered: true
+  chapters:
+  - file: notebook/bases_intro
+    sections:
+    - file: notebook/types
+  - file: notebook/blocs
+    sections:
+    - file: notebook/fonctions
+    - file: notebook/condition
+    - file: notebook/boucles
+- caption: "Bilbiothèques scientifiques"
+  numbered: true
+  chapters:
+  - file: notebook/np_vecteurs
+  - file: notebook/plt_presentation
+- caption: Plus loin avec numpy
+  numbered: true
+  chapters:
+  - file: notebook/np_polyfit
+  - file: notebook/import_file
+  - file: notebook/num_random
+- caption: Pour aller plus loin
+  numbered: true
+  chapters:
+  - file: notebook/plus_loin
