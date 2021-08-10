@@ -1,7 +1,7 @@
 # in _config.yml
 #######################################################################################
 # Book settings
-title                       : "Python : Bases à connaître"
+title                       : "Notebook Jupyter"
 author                      : "Capacités numériques"  # The author of the book
 copyright                   : "2021"  # Copyright year to be placed in the footer
 logo                        : ""  # A path to the book logo
@@ -42,7 +42,7 @@ parse:
 #######################################################################################
 # HTML-specific settings
 html:
-  favicon                   : "notebook/images/favicon.ico"  # A path to a favicon image
+  favicon                   : "images/favicon.ico"  # A path to a favicon image
   use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
   use_repository_button     : false  # Whether to add a link to your repository button
   use_issues_button         : false  # Whether to add an "open an issue" button
